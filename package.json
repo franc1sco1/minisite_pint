@@ -1,0 +1,27 @@
+{
+  "name": "minisite-pint",
+  "version": "1.0.0",
+  "description": "Microsite da Plataforma Integrada de Formação (PINT)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "pint",
+    "e-learning",
+    "formacao",
+    "plataforma",
+    "educacao"
+  ],
+  "author": "Equipa PINT - António, David, Francisco, José, Nuno",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4",
+    "helmet": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
