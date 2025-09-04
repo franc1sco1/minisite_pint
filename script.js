@@ -86,19 +86,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Access Links Functionality
 document.addEventListener('DOMContentLoaded', function() {
+    // Links are now active and functional
+    // Web link: https://ai2-pint-frontend-4i8p.onrender.com/
+    // APK link: https://github.com/viseu28/PINT_PDM/raw/main/PINT_PDM_v1.0.apk
+    
+    // Optional: Add click tracking or analytics here if needed
     const webLink = document.getElementById('web-link');
     const apkLink = document.getElementById('apk-link');
-
-    // Placeholder functionality for web link
-    webLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        showNotification('Link do website será disponibilizado em breve!', 'info');
+    
+    webLink.addEventListener('click', function() {
+        showNotification('A abrir plataforma web...', 'success');
     });
-
-    // Placeholder functionality for APK link
-    apkLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        showNotification('Link do APK será disponibilizado em breve!', 'info');
+    
+    apkLink.addEventListener('click', function() {
+        showNotification('A iniciar download do APK...', 'success');
     });
 });
 
